@@ -9,3 +9,5 @@ nums.reverse()
 nums.append(b)
 nums.reverse()
 print(nums)
+# nums[0], nums[-1] = nums[-1], nums[0]
+# print(nums)
