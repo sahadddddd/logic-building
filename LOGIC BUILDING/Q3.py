@@ -6,6 +6,6 @@ for i in a:
     if i>maximum:
         maximum=i
 for i in a:
-    if i<maximum and i>secon:
+    if i>secon and i<maximum :
      secon=i
 print("second largest:",secon)
