@@ -1,0 +1,10 @@
+#  Create a new array containing only the first half of an existing array.
+# Inp: [6,7,2,9,1]
+# Out: [6,7,2]
+# Inp: [10,7,4,8,9,4]
+# Out: [10,7,4]
+a = list(map(int, input("Enter numbers separated by spaces: ").split()))
+if len(a)%2==0:
+    print(a[:(len(a))//2])
+else:
+    print(a[:(len(a)+1)//2])
