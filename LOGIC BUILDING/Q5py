@@ -5,6 +5,6 @@
 # Out: [10,7,4]
 a = list(map(int, input("Enter numbers separated by spaces: ").split()))
 if len(a)%2==0:
-    print(a[:(len(a))//2])
+    print(a[:len(a)//2])
 else:
     print(a[:(len(a)+1)//2])
