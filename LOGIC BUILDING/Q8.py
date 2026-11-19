@@ -16,5 +16,3 @@ for i in a:
         count[i]=1
 else:
     print("True")
-
-
