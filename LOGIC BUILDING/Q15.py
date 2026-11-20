@@ -9,7 +9,10 @@ for i in a:
 print(count)
 for i in count:
     if count[i]%2!=0:
-        a=[x for x in a if x!=i]        
-print(a)
+        # a=[x for x in a if x!=i]  
+        while i in a:
+             a.remove(i)
+print(a)      
+
 
 
